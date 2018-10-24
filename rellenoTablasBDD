@@ -1,0 +1,21 @@
+INSERT INTO Propietario VALUES 
+(11111111, 'Homero Chino', 12345, 'Por ahí'),
+(22222222, 'Condorito', 56789, 'calle sin número');
+INSERT INTO veterinario VALUES
+(22222222, 'Juan Castro', 'Calle Falsa 123', 'Dermatologia', 123123123);
+INSERT into registro values
+(curdate(), curtime(), 'Paciente con problemas de tiña', 1),
+(curdate(), curtime(), 'Remate de los chistes', 2);
+insert into paciente values
+(null, 'cachulo', 'quiltro', 'perro', '2012-12-12', 'Macho', 'No', 'Largo', 'No', 'no se sabe', 11111111),
+(null, 'washigton', 'Terrier Chileno', 'Perro', '1949-01-02', 'Macho', 'No', 'Corto', 'No', 'No', 22222222);
+insert into bitacora values
+(null, 1),
+(null, 2);
+
+
+Select * FROM Propietario;
+Select * FROM veterinario;
+Select * from registro;
+select * from paciente; 
+select * from bitacora; 
